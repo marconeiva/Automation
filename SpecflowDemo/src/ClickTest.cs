@@ -11,7 +11,7 @@ namespace SpecflowDemo
         public void Click_Test()
         {
             //Launch browser
-            ChromeDriverService service = ChromeDriverService.CreateDefaultService(@"C:\Users\MasterMarco\Downloads\chromedriver_win32", "chromedriver.exe");
+            ChromeDriverService service = ChromeDriverService.CreateDefaultService(@"C:\chromedriver_win32", "chromedriver.exe");
             IWebDriver driver = new ChromeDriver(service);
 
             //Navigate to URL https://www.codecademy.com/
